@@ -1,0 +1,19 @@
+{
+    "welcome": "Welcome to my website!",
+    "home": {
+        "title": "Welcome to my website!",
+        "content": "This is the home page."
+    },
+    "service": {
+        "title": "Our Services",
+        "content": "Here you can learn more about our services."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "content": "You can reach us via email or phone."
+    },
+    "notfound": {
+        "title": "404 - Page Not Found",
+        "content": "The page you are looking for does not exist."
+    }
+}

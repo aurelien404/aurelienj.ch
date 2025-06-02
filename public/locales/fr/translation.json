@@ -1,0 +1,19 @@
+{
+    "welcome": "Bienvenue sur mon site web !",
+    "home": {
+        "title": "Bienvenue sur mon site web !",
+        "content": "Ceci est la page d'accueil."
+    },
+    "service": {
+        "title": "Nos Services",
+        "content": "Découvrez nos services."
+    },
+    "contact": {
+        "title": "Nous Contacter",
+        "content": "Vous pouvez nous joindre par e-mail ou téléphone."
+    },
+    "notfound": {
+        "title": "404 - Page non trouvée",
+        "content": "La page que vous recherchez n'existe pas."
+    }
+}
