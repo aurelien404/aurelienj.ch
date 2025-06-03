@@ -4,17 +4,55 @@
 /** font-normal font-weight: 400; **/
 /** font-semibold font-weight: 600; **/
 /** font-extrabold font-weight: 800; **/
+
 @theme {
   --font-funnel: "Funnel Display" , sans-serif;
+
+  --color-zzbase: #212121;
+  --color-zzcontrast: #f2f2f2;
+  --color-zzlink: #b75deb;
+  
 }
 
 button {
-  all: unset;
+  cursor: pointer;
 }
 
 body {
-  background-color: var(--color-primary);
-  color: var(--color-third);
+  background-color: var(--color-contrast);
+  color: var(--color-base);
   font-family: var(--font-funnel);
   font-weight: var(--font-weight-semibold)
+}
+
+.link-style {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-style::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  top: 0px;
+  right: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease-out, right 0.3s ease-out;
+}
+
+.link-style:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+.link-style-active {
+  color: var(--color-zzlink);
+}
+
+.link-style-active::after {
+  width: 100%;
+  right: 0;
+  background-color: var(--color-zzlink);
 }

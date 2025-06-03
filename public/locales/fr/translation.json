@@ -15,5 +15,10 @@
     "notfound": {
         "title": "404 - Page non trouvée",
         "content": "La page que vous recherchez n'existe pas."
+    },
+    "link": {
+        "home": "Accueil",
+        "service": "Services",
+        "contact": "Contact"
     }
 }
