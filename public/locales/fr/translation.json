@@ -29,6 +29,7 @@
         "button": "Envoyer",
         "loading": "Envoi en cours...",
         "emailValid": "Votre demande a bien été envoyée !",
-        "emailError": "Une erreur s'est produite."
+        "emailError": "Une erreur s'est produite.",
+        "invalidEmail": "Veuillez entrer un email valide."
     }
 }

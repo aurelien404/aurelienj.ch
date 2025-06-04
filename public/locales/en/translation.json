@@ -29,6 +29,7 @@
         "button": "Send",
         "loading": "Sending...",
         "emailValid": "Your request has been sent!",
-        "emailError": "An error occurred."
+        "emailError": "An error occurred.",
+        "invalidEmail": "Please enter a valid email address."
     }
 }
