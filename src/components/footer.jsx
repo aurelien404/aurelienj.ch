@@ -45,16 +45,16 @@ function Footer() {
 
     return (
         <footer className="w-screen bg-zzcontrast border-t-2 border-zzbase">
-            <div className='py-30 w-full mx-auto flex flex-col items-center border-b-2 border-zzbase'>
-                <p className='text-3xl font-extrabold'>{t('footer.title')}</p>
-                <p className='text-lg font-extralight'>{t('footer.subtitle')}</p>
-                <p className='text-xs font-extralight'>"{t('footer.note')}"</p>
+            <div className='py-30 w-full mx-auto flex flex-col items-center text-center border-b-2 border-zzbase'>
+                <p className='text-xl md:text-3xl font-extrabold'>{t('footer.title')}</p>
+                <p className='w-5/6 text-sm md:text-lg font-extralight'>{t('footer.subtitle')}</p>
+                <p className='text-[10px] md:text-xs font-extralight'>"{t('footer.note')}</p>
 
-                <div className={`w-auto mx-auto h-10  flex items-center text-center text-base ${isError ? 'text-red-500' : 'text-green-500'}`}>
+                <div className={`w-auto mx-auto h-10  flex items-center text-center sm:text-sm md:text-base ${isError ? 'text-red-500' : 'text-green-500'}`}>
                     {message}
                 </div>
 
-                <span>
+                <div className='flex flex-col sm:flex-row items-center w-[90%] md:w-3/6 gap-4' >
                     <input value={email}
                         onChange={e => {
                             setEmail(e.target.value);
@@ -62,26 +62,24 @@ function Footer() {
                             setIsError(false);
                         }}
 
-                        className='w-100 border-2 py-2 px-3 mr-5 focus:border-zzlink focus:text-zzlink hover:scale-105 transition duration-200 active:scale-100 ' type='email' placeholder={t('footer.mail')} />
+                        className='flex justify-between w-full md:w-4/5 border-2 py-4 px-3 md:py-2 focus:border-zzlink focus:text-zzlink hover:scale-105 transition duration-200 active:scale-100 ' type='email' placeholder={t('footer.mail')} />
 
-                    <button
-                        className={`border-2 py-2 px-3 transform transition duration-200 hover:scale-105 active:scale-95 disabled:opacity-50
+                    <button className={`w-full md:w-1/5 border-2 py-4 px-3 md:py-2 transform transition duration-200 hover:scale-105 active:scale-95
                             hover:border-zzlink focus:border-zzlink active:border-zzlink
                             hover:text-zzlink focus:text-zzlink active:text-zzlink
-                            ${isLoading ? 'animate-shake text-zzlink border-zzlink' : ''}
-                          `}
+                            ${isLoading ? 'animate-shake text-zzlink border-zzlink' : ''}`}
                         onClick={handleSend}
                         disabled={isLoading} >
                         {isLoading ? t('footer.loading') : t('footer.button')}
                     </button>
 
-                </span>
+                </div>
             </div>
             <div className='w-full h-[150px] py-30 mx-auto flex flex-col items-center bg-zzbase '>
             </div>
             <div className='py-4 px-6 w-full flex justify-between mx-auto text-zzcontrast font-extralight text-xs bg-zzbase'>
                 <p>Copyright © 2025</p>
-                <a>aurelienj.</a>
+                <a>aurelienj.ch</a>
             </div>
         </footer>
     );
