@@ -9,6 +9,23 @@ function Header() {
     const location = useLocation();
     const [menuOpen, setMenuOpen] = useState(false);
 
+    const HoverLettersLink = ({ to, isActive, children, onClick }) => {
+        return (
+            <Link
+                to={to}
+                onClick={onClick}
+                className={`link-style mr-4 ${isActive ? 'link-style-active' : ''} letter-hover-effect`}
+            >
+                {[...children].map((char, i) => (
+                    <span key={i} className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzlink">
+                        {char}
+                    </span>
+                ))}
+            </Link>
+        );
+    };
+
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -29,7 +46,17 @@ function Header() {
 
     return (
         <header className={`${isShrunk ? 'py-3 px-7' : 'py-5 px-10'} sticky top-0 left-0 w-screen flex justify-between items-center bg-zzcontrast border-b-2 border-base transition-all duration-300 ease-out z-10`}>
-            <p className={`${isShrunk ? 'text-2xl' : 'text-3xl'} w-full text-center md:text-left font-extrabold transition-all duration-300 ease-out text-zzlink`}>aurelienj.</p>
+            <a href='/' className={`${isShrunk ? 'text-2xl' : 'text-3xl'} w-full text-center md:text-left font-extrabold transition-all duration-300 ease-out`}>
+                {[...'aurelienj.'].map((char, i) => (
+                    <span
+                        key={i}
+                        className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzlink"
+                    >
+                        {char}
+                    </span>
+                ))}
+            </a>
+
             <button
                 onClick={() => setMenuOpen(true)}
                 className="md:hidden text-3xl font-extrabold transition-all duration-500 ease-in hover:rotate-1080 hover:text-zzlink active:rotate-1080 active:text-zzlink hover:scale-110 active:scale-110"

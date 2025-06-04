@@ -20,5 +20,15 @@
             "home": "Home",
             "service": "Services",
             "contact": "Contact"
+    },
+    "footer": {
+        "title": "Request Your Personalized Quote",
+        "subtitle": "Enter your email and receive a proposal tailored to your needs.",
+        "note": " It’s completely free with no obligation whatsoever.",
+        "mail": "Your Email",
+        "button": "Send",
+        "loading": "Sending...",
+        "emailValid": "Your request has been sent!",
+        "emailError": "An error occurred."
     }
 }

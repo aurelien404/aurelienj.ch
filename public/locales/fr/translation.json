@@ -20,5 +20,15 @@
         "home": "Accueil",
         "service": "Services",
         "contact": "Contact"
+    },
+    "footer": {
+        "title": "Demandez votre devis personnalisé",
+        "subtitle": "Entrez votre email et recevez une proposition adaptée à vos besoins.",
+        "note": "C’est 100 % gratuit et sans aucun engagement.",
+        "mail": "Votre Email",
+        "button": "Envoyer",
+        "loading": "Envoi en cours...",
+        "emailValid": "Votre demande a bien été envoyée !",
+        "emailError": "Une erreur s'est produite."
     }
 }
