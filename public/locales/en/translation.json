@@ -2,7 +2,10 @@
     "welcome": "Welcome to my website!",
     "home": {
         "title": "Welcome to my website!",
-        "content": "This is the home page."
+        "content": "This is the home page.",
+        "herotitre": "Freelance Front-End Developer",
+        "herotext": "I create custom websites that are clean, fast, and tailored for artisans, freelancers, and small businesses. My approach? A simple, clutter-free design that highlights what matters most: <strong>Your work</strong>.",
+        "herobtn": "Let’s connect."
     },
     "service": {
         "title": "Our Services",

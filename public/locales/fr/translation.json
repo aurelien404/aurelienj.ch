@@ -2,7 +2,10 @@
     "welcome": "Bienvenue sur mon site web !",
     "home": {
         "title": "Bienvenue sur mon site web !",
-        "content": "Ceci est la page d'accueil."
+        "content": "Ceci est la page d'accueil.",
+        "herotitre": "Développeur front-end freelance",
+        "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
+        "herobtn": "On en parle ?"
     },
     "service": {
         "title": "Nos Services",

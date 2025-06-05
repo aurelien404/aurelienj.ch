@@ -89,8 +89,8 @@ function Footer() {
 
                 </div>
             </div>
-            <div className='w-full py-25 mx-auto flex flex-col items-center bg-zzlink text-zzcontrast'>
-                <a href='/' className='text-5xl  w-full text-center font-extrabold transition-all duration-300 ease-out'>
+            <div className='w-full py-10 md:py-25 mx-auto flex flex-col items-center bg-zzlink text-zzcontrast'>
+                <a href='/' className='text-3xl md:text-5xl w-full text-center font-extrabold transition-all duration-300 ease-out'>
                     {[...'aurelienj.'].map((char, i) => (
                         <span key={i}
                             className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzbase">
@@ -98,12 +98,12 @@ function Footer() {
                         </span>
                     ))}
                 </a>
-                <nav className='flex flex-row gap-8 md:gap-6 text-lg mt-10'>
+                <nav className='flex gap-6 text-sm md:text-lg mt-6 md:mt-10'>
                     <Link to="/UiUxLab" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/UiUxLab' ? 'link-zzstyle-active' : ''}`}>{t('link.UiUxLab')}</Link>
                     <Link to="/service" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/service' ? 'link-zzstyle-active' : ''}`}>{t('link.service')}</Link>
                     <Link to="/contact" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/contact' ? 'link-zzstyle-active' : ''}`}>{t('link.contact')}</Link>
                 </nav>
-                <nav className='flex flex-row gap-4 text-sm font-extralight mt-2'>
+                <nav className='flex flex-row gap-4 text-xs md:text-sm font-extralight mt-2'>
                     <a href='#' className="link-style">{ t('link.PP')}</a>
                     <a href='#' className="link-style">{ t('link.LN')}</a>
                 </nav>
