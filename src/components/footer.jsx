@@ -1,11 +1,11 @@
+import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-
-
 function Footer() {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const location = useLocation();
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState(null);
     const [isError, setIsError] = useState(false);
@@ -20,7 +20,6 @@ function Footer() {
             setIsError(true);
             return;
         }
-
 
         setIsLoading(true);
 
@@ -42,6 +41,21 @@ function Footer() {
             });
     };
 
+    const HoverLettersLink = ({ to, isActive, children, onClick }) => {
+        return (
+            <Link
+                to={to}
+                onClick={onClick}
+                className={`link-style mr-4 ${isActive ? 'link-style-active' : ''} letter-hover-effect`}
+                >
+                {[...children].map((char, i) => (
+                    <span key={i} className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzlink">
+                        {char}
+                    </span>
+                ))}
+            </Link>
+        );
+    };
 
     return (
         <footer className="w-screen bg-zzcontrast border-t-2 border-zzbase">
@@ -75,7 +89,24 @@ function Footer() {
 
                 </div>
             </div>
-            <div className='w-full h-[150px] py-30 mx-auto flex flex-col items-center bg-zzbase '>
+            <div className='w-full py-25 mx-auto flex flex-col items-center bg-zzlink text-zzcontrast'>
+                <a href='/' className='text-5xl  w-full text-center font-extrabold transition-all duration-300 ease-out'>
+                    {[...'aurelienj.'].map((char, i) => (
+                        <span key={i}
+                            className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzbase">
+                            {char}
+                        </span>
+                    ))}
+                </a>
+                <nav className='flex flex-row gap-8 md:gap-6 text-lg mt-10'>
+                    <Link to="/UiUxLab" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/UiUxLab' ? 'link-zzstyle-active' : ''}`}>{t('link.UiUxLab')}</Link>
+                    <Link to="/service" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/service' ? 'link-zzstyle-active' : ''}`}>{t('link.service')}</Link>
+                    <Link to="/contact" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/contact' ? 'link-zzstyle-active' : ''}`}>{t('link.contact')}</Link>
+                </nav>
+                <nav className='flex flex-row gap-4 text-sm font-extralight mt-2'>
+                    <a href='#' className="link-style">{ t('link.PP')}</a>
+                    <a href='#' className="link-style">{ t('link.LN')}</a>
+                </nav>
             </div>
             <div className='py-4 px-6 w-full flex justify-between mx-auto text-zzcontrast font-extralight text-xs bg-zzbase'>
                 <p>Copyright © 2025</p>

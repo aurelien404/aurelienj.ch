@@ -12,14 +12,21 @@
         "title": "Contact Us",
         "content": "You can reach us via email or phone."
     },
+    "UiUxLab": {
+        "title": "Ui/Ux Lab",
+        "content": "Welcome to my UI/UX playground."
+    },
     "notfound": {
         "title": "404 - Page Not Found",
         "content": "The page you are looking for does not exist."
     },
     "link": {
-            "home": "Home",
-            "service": "Services",
-            "contact": "Contact"
+        "home": "Home",
+        "service": "Services",
+        "contact": "Contact",
+        "UiUxLab": "Ui/Ux Lab",
+        "PP": "Privacy Policy",
+        "LN": "Legal Notice"
     },
     "footer": {
         "title": "Request Your Personalized Quote",

@@ -10,6 +10,18 @@
   
 }
 
+@layer utilities {
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-4px); }
+    40%, 80% { transform: translateX(4px); }
+  }
+
+  .animate-shake {
+    animation: shake 0.5s infinite;
+  }
+}
+
 input,
 button,
 textarea {
@@ -24,13 +36,15 @@ body {
   font-weight: var(--font-weight-semibold)
 }
 
-.link-style {
+.link-style,
+.link-zzstyle {
   position: relative;
   text-decoration: none;
   cursor: pointer;
 }
 
-.link-style::after {
+.link-style::after,
+.link-zzstyle::after {
   content: "";
   position: absolute;
   width: 0;
@@ -41,7 +55,14 @@ body {
   transition: width 0.3s ease-out, right 0.3s ease-out;
 }
 
-.link-style:hover::after {
+.link-style:hover::after,
+.link-zzstyle:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+.link-zzstyle-active::after,
+.link-style-active::after {
   width: 100%;
   right: 0;
 }
@@ -51,19 +72,26 @@ body {
 }
 
 .link-style-active::after {
-  width: 100%;
-  right: 0;
   background-color: var(--color-zzlink);
 }
 
-@layer utilities {
-  @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    20%, 60% { transform: translateX(-4px); }
-    40%, 80% { transform: translateX(4px); }
-  }
-
-  .animate-shake {
-    animation: shake 0.5s infinite;
-  }
+.link-zzstyle-active {
+  color: var(--color-zzbase);
 }
+
+.link-zzstyle-active::after {
+  background-color: var(--color-zzbase);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -25,8 +25,6 @@ function Header() {
         );
     };
 
-
-
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 50) {
