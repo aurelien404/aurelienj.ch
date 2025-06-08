@@ -49,5 +49,11 @@
         "emailValid": "Votre demande a bien été envoyée !",
         "emailError": "Une erreur s'est produite.",
         "invalidEmail": "Veuillez entrer un email valide."
+    },
+    "404": {
+        "title": "Oups !",
+        "heading": "404 - Page non trouvée",
+        "message": "La page que vous recherchez a peut-être été supprimée, renommée ou est temporairement indisponible.",
+        "button": "Retour à l’accueil"
     }
 }

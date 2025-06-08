@@ -64,7 +64,7 @@ function Footer() {
     ];
 
     return (
-        <footer className="w-screen bg-zzcontrast border-t-2 border-zzbase">
+        <footer id="quote" className="w-screen bg-zzcontrast border-t-2 border-zzbase">
             <div className='py-30 w-full mx-auto flex flex-col items-center text-center border-b-2 border-zzbase'>
                 <p className='text-xl md:text-3xl font-extrabold'>{t('footer.title')}</p>
                 <p className='w-5/6 text-sm md:text-lg font-extralight'>{t('footer.subtitle')}</p>

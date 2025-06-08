@@ -49,5 +49,11 @@
         "emailValid": "Your request has been sent!",
         "emailError": "An error occurred.",
         "invalidEmail": "Please enter a valid email address."
+    },
+    "404": {
+        "title": "Oops!",
+        "heading": "404 - Page Not Found",
+        "message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "button": "Go to Homepage"
     }
 }
