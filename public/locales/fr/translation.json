@@ -1,4 +1,45 @@
 {
-    "welcome": "Hello",
-    "description": "C'est un exemple de i18Next"
+    "welcome": "Bienvenue sur mon site web !",
+    "home": {
+        "title": "Bienvenue sur mon site web !",
+        "content": "Ceci est la page d'accueil.",
+        "herotitre": "Développeur front-end freelance",
+        "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
+        "herobtn": "On en parle ?"
+    },
+    "service": {
+        "title": "Nos Services",
+        "content": "Découvrez nos services."
+    },
+    "contact": {
+        "title": "Nous Contacter",
+        "content": "Vous pouvez nous joindre par e-mail ou téléphone."
+    },
+    "UiUxLab": {
+        "title": "Ui/Ux Lab",
+        "content": "Page de mes expériences Ui Ux."
+    },
+    "notfound": {
+        "title": "404 - Page non trouvée",
+        "content": "La page que vous recherchez n'existe pas."
+    },
+    "link": {
+        "home": "Accueil",
+        "service": "Services",
+        "contact": "Contact",
+        "UiUxLab": "Ui/Ux Lab",
+        "PP": "Politique de confidentialité",
+        "LN": "Mentions légales"
+    },
+    "footer": {
+        "title": "Demandez votre devis personnalisé",
+        "subtitle": "Entrez votre email et recevez une proposition adaptée à vos besoins.",
+        "note": "C’est 100% gratuit et sans aucun engagement.",
+        "mail": "Votre Email",
+        "button": "Envoyer",
+        "loading": "Envoi en cours...",
+        "emailValid": "Votre demande a bien été envoyée !",
+        "emailError": "Une erreur s'est produite.",
+        "invalidEmail": "Veuillez entrer un email valide."
+    }
 }

@@ -1,6 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 @import "tailwindcss";
 
-body {
-  background-color: darkslateblue;
-  color: bisque;
+@theme {
+  --font-funnel: "Funnel Display" , sans-serif;
+
+  --color-zzbase: #212121;
+  --color-zzcontrast: #fff;
+  --color-zzlink: #625deb;
+  
 }
+
+@layer utilities {
+  @keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    20%, 60% { transform: translateX(-4px); }
+    40%, 80% { transform: translateX(4px); }
+  }
+
+  .animate-shake {
+    animation: shake 0.5s infinite;
+  }
+}
+
+input,
+button,
+textarea {
+  cursor: pointer;
+  outline: none;
+}
+
+body {
+  background-color: var(--color-contrast);
+  color: var(--color-base);
+  font-family: var(--font-funnel);
+  font-weight: var(--font-weight-semibold)
+}
+
+.link-style,
+.link-zzstyle {
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-style::after,
+.link-zzstyle::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  top: 0px;
+  right: 0;
+  background-color: currentColor;
+  transition: width 0.3s ease-out, right 0.3s ease-out;
+}
+
+.link-style:hover::after,
+.link-zzstyle:hover::after {
+  width: 100%;
+  right: 0;
+}
+
+.link-zzstyle-active::after,
+.link-style-active::after {
+  width: 100%;
+  right: 0;
+}
+
+.link-style-active {
+  color: var(--color-zzlink);
+}
+
+.link-style-active::after {
+  background-color: var(--color-zzlink);
+}
+
+.link-zzstyle-active {
+  color: var(--color-zzbase);
+}
+
+.link-zzstyle-active::after {
+  background-color: var(--color-zzbase);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

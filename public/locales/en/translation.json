@@ -1,4 +1,45 @@
 {
-    "welcome": "Welcome",
-    "description": "This is an i18next example"
+    "welcome": "Welcome to my website!",
+    "home": {
+        "title": "Welcome to my website!",
+        "content": "This is the home page.",
+        "herotitre": "Freelance Front-End Developer",
+        "herotext": "I create custom websites that are clean, fast, and tailored for artisans, freelancers, and small businesses. My approach? A simple, clutter-free design that highlights what matters most: <strong>Your work</strong>.",
+        "herobtn": "Let’s connect."
+    },
+    "service": {
+        "title": "Our Services",
+        "content": "Here you can learn more about our services."
+    },
+    "contact": {
+        "title": "Contact Us",
+        "content": "You can reach us via email or phone."
+    },
+    "UiUxLab": {
+        "title": "Ui/Ux Lab",
+        "content": "Welcome to my UI/UX playground."
+    },
+    "notfound": {
+        "title": "404 - Page Not Found",
+        "content": "The page you are looking for does not exist."
+    },
+    "link": {
+        "home": "Home",
+        "service": "Services",
+        "contact": "Contact",
+        "UiUxLab": "Ui/Ux Lab",
+        "PP": "Privacy Policy",
+        "LN": "Legal Notice"
+    },
+    "footer": {
+        "title": "Request Your Personalized Quote",
+        "subtitle": "Enter your email and receive a proposal tailored to your needs.",
+        "note": " It’s completely free with no obligation whatsoever.",
+        "mail": "Your Email",
+        "button": "Send",
+        "loading": "Sending...",
+        "emailValid": "Your request has been sent!",
+        "emailError": "An error occurred.",
+        "invalidEmail": "Please enter a valid email address."
+    }
 }
