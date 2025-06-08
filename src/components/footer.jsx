@@ -4,7 +4,7 @@ import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Footer() {
-    const { t, i18n } = useTranslation();
+    const { t } = useTranslation();
     const location = useLocation();
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState(null);
@@ -57,6 +57,12 @@ function Footer() {
         );
     };
 
+    const footerNav = [
+        { to: '/UiUxLab', labelKey: 'link.UiUxLab' },
+        { to: '/service', labelKey: 'link.service' },
+        { to: '/contact', labelKey: 'link.contact' },
+    ];
+
     return (
         <footer className="w-screen bg-zzcontrast border-t-2 border-zzbase">
             <div className='py-30 w-full mx-auto flex flex-col items-center text-center border-b-2 border-zzbase'>
@@ -98,14 +104,25 @@ function Footer() {
                         </span>
                     ))}
                 </a>
+
+
                 <nav className='flex gap-6 text-sm md:text-lg mt-6 md:mt-10'>
-                    <Link to="/UiUxLab" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/UiUxLab' ? 'link-zzstyle-active' : ''}`}>{t('link.UiUxLab')}</Link>
-                    <Link to="/service" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/service' ? 'link-zzstyle-active' : ''}`}>{t('link.service')}</Link>
-                    <Link to="/contact" onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`link-zzstyle ${location.pathname === '/contact' ? 'link-zzstyle-active' : ''}`}>{t('link.contact')}</Link>
+                    {footerNav.map((link) => (
+                        <Link
+                            key={link.to} to={link.to}
+                            onClick={() => { window.scrollTo({ top: 0, behavior: 'smooth' }) }}
+                            className={`link-zzstyle ${location.pathname === '{ link.to }' ? 'link-zzstyle-active' : ''}`}
+                        >
+                            {t(link.labelKey)}
+                        </Link>
+
+                    ))}
                 </nav>
+
+
                 <nav className='flex flex-row gap-4 text-xs md:text-sm font-extralight mt-2'>
-                    <a href='#' className="link-style">{t('link.PP')}</a>
-                    <a href='#' className="link-style">{t('link.LN')}</a>
+                    <a href='/PP' className="link-style">{t('link.PP')}</a>
+                    <a href='/LN' className="link-style">{t('link.LN')}</a>
                 </nav>
             </div>
             <div className='py-4 px-6 w-full flex justify-between mx-auto text-zzcontrast font-extralight text-xs bg-zzbase'>

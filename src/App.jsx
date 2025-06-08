@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
+import Maintenance from './pages/Maintenance';
 import Home from './pages/Home';
 import Service from './pages/Services';
 import Contact from './pages/Contact';
@@ -15,10 +16,10 @@ function App() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/service" element={<Service />} />
+        <Route path="/" element={<Maintenance />} />
+        {/*<Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/UiUxLab" element={<UiUxLab />} />
+        <Route path="/UiUxLab" element={<UiUxLab />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

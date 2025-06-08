@@ -1,5 +1,13 @@
 {
     "welcome": "Welcome to my website!",
+    "MaintPag": {
+        "title": "Welcome to my website!",
+        "content": "This is the home page.",
+        "heroMaint": "We're Working On It",
+        "herotitre": "Freelance Front-End Developer",
+        "herotext": "I create custom websites that are clean, fast, and tailored for artisans, freelancers, and small businesses. My approach? A simple, clutter-free design that highlights what matters most: <strong>Your work</strong>.",
+        "herobtn": "Let’s connect."
+    },
     "home": {
         "title": "Welcome to my website!",
         "content": "This is the home page.",

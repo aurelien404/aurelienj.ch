@@ -25,6 +25,13 @@ function Header() {
         );
     };
 
+    const navLinks = [
+        { to: '/', labelKey: 'link.home' },
+        { to: '/service', labelKey: 'link.service' },
+        { to: '/contact', labelKey: 'link.contact' },
+    ];
+
+
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 50) {
@@ -63,11 +70,23 @@ function Header() {
             </button>
 
             <span className='hidden md:flex justify-between'>
+
                 <nav className={`${isShrunk ? 'text-base' : 'text-xl'} font-bold transition-all duration-300 ease-out mr-4`}>
-                    <Link to="/" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`mr-4 link-style ${location.pathname === '/' ? 'link-style-active' : ''}`}>{t('link.home')}</Link>
-                    <Link to="/service" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`mr-4 link-style ${location.pathname === '/service' ? 'link-style-active' : ''}`}>{t('link.service')}</Link>
-                    <Link to="/contact" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`mr-4 link-style ${location.pathname === '/contact' ? 'link-style-active' : ''}`}>{t('link.contact')}</Link>
+                    {navLinks.map((link) => (
+                        <Link
+                            key={link.to}
+                            to={link.to}
+                            onClick={() => {
+                                setMenuOpen(false);
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                            }}
+                            className={`mr-4 link-style ${location.pathname === link.to ? 'link-style-active' : ''}`}
+                        >
+                            {t(link.labelKey)}
+                        </Link>
+                    ))}
                 </nav>
+
 
                 <button
                     className={`font-extrabold mx-0.5 border-none bg-none cursor-pointer ${i18n.language === 'fr' ? 'text-zzlink text-sm' : ''}`}
@@ -91,9 +110,19 @@ function Header() {
 
                 {/* Liens du menu mobile */}
                 <nav className="flex flex-col space-y-4 text-xl font-bold md:flex-row items-center md:items-start text-center md:text-left">
-                    <Link to="/" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`mr-4 link-style ${location.pathname === '/' ? 'link-style-active' : ''}`}>{t('link.home')}</Link>
-                    <Link to="/service" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`mr-4 link-style ${location.pathname === '/service' ? 'link-style-active' : ''}`}>{t('link.service')}</Link>
-                    <Link to="/contact" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: 'smooth' }) }} className={`mr-4 link-style ${location.pathname === '/contact' ? 'link-style-active' : ''}`}>{t('link.contact')}</Link>
+                    {navLinks.map((link) => (
+                        <Link
+                            key={link.to}
+                            to={link.to}
+                            onClick={() => {
+                                setMenuOpen(false);
+                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                            }}
+                            className={`mr-4 link-style ${location.pathname === link.to ? 'link-style-active' : ''}`}
+                        >
+                            {t(link.labelKey)}
+                        </Link>
+                    ))}
                 </nav>
 
                 {/* Langues */}
