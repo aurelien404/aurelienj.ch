@@ -41,22 +41,6 @@ function Footer() {
             });
     };
 
-    const HoverLettersLink = ({ to, isActive, children, onClick }) => {
-        return (
-            <Link
-                to={to}
-                onClick={onClick}
-                className={`link-style mr-4 ${isActive ? 'link-style-active' : ''} letter-hover-effect`}
-            >
-                {[...children].map((char, i) => (
-                    <span key={i} className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzlink">
-                        {char}
-                    </span>
-                ))}
-            </Link>
-        );
-    };
-
     const footerNav = [
         { to: '/UiUxLab', labelKey: 'link.UiUxLab' },
         { to: '/service', labelKey: 'link.service' },
@@ -99,7 +83,7 @@ function Footer() {
                 <a href='/' className='text-3xl md:text-5xl w-full text-center font-extrabold transition-all duration-300 ease-out'>
                     {[...'aurelienj.'].map((char, i) => (
                         <span key={i}
-                            className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzbase">
+                            className="inline-block transition-transform duration-300 hover:rotate-45 hover:text-zzbase">
                             {char}
                         </span>
                     ))}

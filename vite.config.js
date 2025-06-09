@@ -9,6 +9,6 @@ export default defineConfig({
     react()
   ],
   server: {
-    host: true // ou '0.0.0.0' pour écouter sur toutes les interfaces
+    host: true
   }
 });

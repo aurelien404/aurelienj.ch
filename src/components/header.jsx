@@ -1,29 +1,26 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
+import Logo from './logo';
+
+
 
 
 function Header() {
+    const logoRef = useRef(null);
+    const [mouseX, setMouseX] = useState(0);
+
+    const handleMouseMove = (e) => {
+        const rect = logoRef.current.getBoundingClientRect();
+        const x = e.clientX - rect.left; // position relative dans le lien
+        setMouseX(x / rect.width); // Normalisé entre 0 et 1
+    };
+
+
     const [isShrunk, setIsShrunk] = useState(false);
     const { t, i18n } = useTranslation();
     const location = useLocation();
     const [menuOpen, setMenuOpen] = useState(false);
-
-    const HoverLettersLink = ({ to, isActive, children, onClick }) => {
-        return (
-            <Link
-                to={to}
-                onClick={onClick}
-                className={`link-style mr-4 ${isActive ? 'link-style-active' : ''} letter-hover-effect`}
-            >
-                {[...children].map((char, i) => (
-                    <span key={i} className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzlink">
-                        {char}
-                    </span>
-                ))}
-            </Link>
-        );
-    };
 
     const navLinks = [
         { to: '/', labelKey: 'link.home' },
@@ -49,18 +46,10 @@ function Header() {
         i18n.changeLanguage(lng);
     };
 
+
     return (
         <header className={`${isShrunk ? 'py-3 px-7' : 'py-5 px-10'} sticky top-0 left-0 w-screen flex justify-between items-center bg-zzcontrast border-b-2 border-base transition-all duration-300 ease-out z-10`}>
-            <a href='/' className={`${isShrunk ? 'text-2xl' : 'text-3xl'} w-full text-center md:text-left font-extrabold transition-all duration-300 ease-out`}>
-                {[...'aurelienj.'].map((char, i) => (
-                    <span
-                        key={i}
-                        className="inline-block transition-transform duration-300 hover:rotate-12 hover:text-zzlink"
-                    >
-                        {char}
-                    </span>
-                ))}
-            </a>
+            <Logo />
 
             <button
                 onClick={() => setMenuOpen(true)}

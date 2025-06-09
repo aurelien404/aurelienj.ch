@@ -17,8 +17,9 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Maintenance />} />
-        {/*<Route path="/service" element={<Service />} />
         <Route path="/contact" element={<Contact />} />
+        {/*<Route path="/service" element={<Service />} />
+        
         <Route path="/UiUxLab" element={<UiUxLab />} /> */}
         <Route path="*" element={<NotFound />} />
       </Routes>

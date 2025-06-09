@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <div className="w-full h-[80vh] flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between px-6 md:px-20 py-20 border-b-2">
-                <div className="w-full md:w-3/5 flex flex-col gap-6">
+                <div className="w-full md:w-3/5 h-full flex flex-col justify-center gap-6">
                     <h1 className="text-3xl md:text-6xl font-extrabold text-zzbase">
                         {t('home.herotitre')}
                     </h1>

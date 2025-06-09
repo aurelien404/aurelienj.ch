@@ -20,8 +20,8 @@
         "content": "Here you can learn more about our services."
     },
     "contact": {
-        "title": "Contact Us",
-        "content": "You can reach us via email or phone."
+        "title": "Contact Me",
+        "text": "Need to improve an existing website, create a new one, or just have a question? Share your project with me — I'm here to help."
     },
     "UiUxLab": {
         "title": "Ui/Ux Lab",
@@ -55,5 +55,19 @@
         "heading": "404 - Page Not Found",
         "message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
         "button": "Go to Homepage"
+    },
+    "form": {
+        "name": "Your name",
+        "mail": "Your Email",
+        "url": "www.your-website.com",
+        "textarea": "Your message",
+        "button": "Send",
+        "loading": "Sending...",
+        "emailValid": "Your request has been sent!",
+        "emailError": "An error occurred.",
+        "invalidName": "Please enter a valid name.",
+        "invalidEmail": "Please enter a valid email address.",
+        "invalidUrl": "Please enter a valid URL address.",
+        "emptyText": "Message is obligatoire."
     }
 }

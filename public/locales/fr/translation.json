@@ -21,7 +21,7 @@
     },
     "contact": {
         "title": "Nous Contacter",
-        "content": "Vous pouvez nous joindre par e-mail ou téléphone."
+        "text": "Besoin d’un tout nouveau site ? Un site à améliorer ? Ou simplement une question ? Partagez-moi votre projet, je vous accompagne."
     },
     "UiUxLab": {
         "title": "Ui/Ux Lab",
@@ -42,18 +42,26 @@
     "footer": {
         "title": "Demandez votre devis personnalisé",
         "subtitle": "Entrez votre email et recevez une proposition adaptée à vos besoins.",
-        "note": "C’est 100% gratuit et sans aucun engagement.",
-        "mail": "Votre Email",
-        "button": "Envoyer",
-        "loading": "Envoi en cours...",
-        "emailValid": "Votre demande a bien été envoyée !",
-        "emailError": "Une erreur s'est produite.",
-        "invalidEmail": "Veuillez entrer un email valide."
+        "note": "C’est 100% gratuit et sans aucun engagement."
     },
     "404": {
         "title": "Oups !",
         "heading": "404 - Page non trouvée",
         "message": "La page que vous recherchez a peut-être été supprimée, renommée ou est temporairement indisponible.",
         "button": "Retour à l’accueil"
+    },
+    "form": {
+        "name": "Votre nom",
+        "mail": "Votre Email",
+        "url": "www.votre-siteweb.ch",
+        "textarea": "Votre message",
+        "button": "Envoyer",
+        "loading": "Envoi en cours...",
+        "emailValid": "Votre demande a bien été envoyée !",
+        "emailError": "Une erreur s'est produite.",
+        "invalidName": "Veuillez entrer un nom valide.",
+        "invalidEmail": "Veuillez entrer un email valide.",
+        "invalidUrl": "Veuillez entrer une adresse URL valide.",
+        "emptyText": "Le message est obligatoire."
     }
 }
