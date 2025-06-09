@@ -105,7 +105,8 @@ function Contact() {
                                 {message}</div>
                         )}
                         <button className={`w-4/6 md:w-2/5 border-2 py-4 px-3 md:py-2 transform transition duration-200 hover:scale-105 active:scale-95 hover:border-zzlink focus:border-zzlink active:border-zzlink hover:text-zzlink focus:text-zzlink active:text-zzlink
-                            ${isLoading ? 'animate-shake text-zzlink border-zzlink' : ''}`} onClick={handleSend} disabled={isLoading}
+                            ${isLoading ? 'animate-shake text-zzlink border-zzlink' : ''}`} onClick={() => { plausible('contact_btn_send_clicked'); handleSend(); }}
+                            disabled={isLoading}
                         >
                             {isLoading ? t('form.loading') : t('form.button')}
                         </button>
