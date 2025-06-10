@@ -28,7 +28,7 @@ export default function Logo() {
     return () => window.removeEventListener('resize', checkIfMobile);
   }, []);
 
-  const letters = [...'aurelienj.'];
+  const letters = [...'a.'];
 
   return (
     <a
