@@ -4,14 +4,14 @@
         "title": "Bienvenue sur mon site web !",
         "content": "Ceci est la page d'accueil.",
         "heroMaint": "Ce site sera bientôt disponible",
-        "herotitre": "Développeur front-end freelance",
+        "herotitre": "Web Développeur freelance",
         "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
         "herobtn": "On en parle ?"
     },
     "home": {
         "title": "Bienvenue sur mon site web !",
         "content": "Ceci est la page d'accueil.",
-        "herotitre": "Développeur front-end freelance",
+        "herotitre": "Web Développeur freelance",
         "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
         "herobtn": "On en parle ?"
     },
@@ -24,8 +24,9 @@
         "text": "Besoin d’un tout nouveau site ? Un site à améliorer ? Ou simplement une question ? Partagez-moi votre projet, je vous accompagne."
     },
     "UiUxLab": {
-        "title": "Ui/Ux Lab",
-        "content": "Page de mes expériences Ui Ux."
+        "title": "Mes projets",
+        "subTitle": "Expériences numériques et solutions interactives",
+        "content": "Une vitrine de mes créations numériques, développées avec React, Vite et Tailwind CSS. Je mets l'accent sur un design épuré et une fonctionnalité efficace pour créer des expériences utilisateur intuitives et engageantes."
     },
     "notfound": {
         "title": "404 - Page non trouvée",
@@ -35,7 +36,7 @@
         "home": "Accueil",
         "service": "Services",
         "contact": "Contact",
-        "UiUxLab": "Ui/Ux Lab",
+        "UiUxLab": "Projets",
         "PP": "Politique de confidentialité",
         "LN": "Mentions légales"
     },
