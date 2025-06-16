@@ -27,8 +27,20 @@
         "title": "Mes projets",
         "subTitle": "Expériences numériques et solutions interactives",
         "content": "Une vitrine de mes créations numériques, développées avec React, Vite et Tailwind CSS. Je mets l'accent sur un design épuré et une fonctionnalité efficace pour créer des expériences utilisateur intuitives et engageantes.",
-        "p11": "Nouvelle tache ..."
+        "p99": "BIENTÔT DISPONIBLE",
+        "p98": "Le prochain projet est en cours de construction et sera bientôt disponible",
+        "p11": "Nouvelle tache ...",
+        "p12": "Liste de tâches",
+        "p13": "Profitez de cette mini-application",
+        "p14": "Liste de tâches interactive",
+        "p15": "Une to-do list intuitive et fluide, conçue pour démontrer mes compétences en développement. Ajoutez, validez ou supprimez vos tâches facilement grâce à une interface réactive et dynamique."
     },
+    "tasks": [
+        { "id": 1, "text": "Optimiser une fonction existante", "checked": true },
+        { "id": 2, "text": "Réviser React + Vite", "checked": false },
+        { "id": 3, "text": "Refaire un ancien projet", "checked": false }
+
+    ],
     "notfound": {
         "title": "404 - Page non trouvée",
         "content": "La page que vous recherchez n'existe pas."

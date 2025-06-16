@@ -27,8 +27,20 @@
         "title": "My projects",
         "subTitle": "Digital Experiences & Interactive Solutions",
         "content": "A showcase of my digital creations, built with React, Vite, and Tailwind CSS. I focus on combining clean design and efficient functionality to create intuitive and engaging user experiences",
-        "p11": "New task ..."
+        "p99": "COMING SOON",
+        "p98": "The next project is under construction and will be available soon",
+        "p11": "New task ...",
+        "p12": "To-Do list",
+        "p13": "Enjoy this mini-app",
+        "p14": "Interactive To-Do List",
+        "p15": "An intuitive and fluid to-do list designed to showcase my development skills. Easily add, validate, or delete tasks with a responsive and dynamic interface."
     },
+    "tasks": [
+        { "id": 1, "text": "Optimize an existing function", "checked": true },
+        { "id": 2, "text": "Review React + Vite", "checked": false },
+        { "id": 3, "text": "Redo an old project", "checked": false }
+
+    ],
     "notfound": {
         "title": "404 - Page Not Found",
         "content": "The page you are looking for does not exist."

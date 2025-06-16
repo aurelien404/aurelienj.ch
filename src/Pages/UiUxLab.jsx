@@ -5,7 +5,7 @@ function UiUxLab() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="w-full h-[200vh] px-[3vw] pt-10 md:pt-30 md:px-[15vw] ">
+      <div className="w-full px-[3vw] pt-10 md:pt-30 md:px-[15vw] ">
         <h1 className="text-3xl md:text-6xl font-extrabold text-zzbase pb-5">
           {t("UiUxLab.title")}
         </h1>
@@ -16,28 +16,42 @@ function UiUxLab() {
           {t("UiUxLab.content")}
         </p>
 
-        <div className="w-full  h-10/12">
-          <div className="w-full border-b-2 mt-5">
+        <div className="w-full">
+          <div className="w-full max-w-[600px] mx-auto border-b-2 mt-5">
             <Todolist />
             <div className="w-full text-center py-5">
               <h2 className="text-xl md:text-3xl font-extrabold text-zzbase">
-                TO-DO List
+                {t("UiUxLab.p14")}
               </h2>
-              <p className="text-base md:text-xl font-light text-zzbase">
-                Ceci est la description du projets.
+              <p className="text-sm md:text-base font-light text-zzbase">
+                {t("UiUxLab.p15")}
               </p>
+              <span className="w-4/6 md:w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
+                <p>React</p>
+                <p>Tailwind</p>
+                <p>i18Next</p>
+              </span>
             </div>
           </div>
 
-          <div className="w-full border-b-2 mt-5">
-            <div className="w-full h-[400px] bg-green-300"></div>
-            <div className="w-full text-center py-5">
+          <div className="w-full max-w-[600px] mx-auto mt-5 grid place-items-center text-center">
+            <div>
+              <img
+                src="./logo_aurelienj.png"
+                alt="Image"
+                className="w-3xs h-3xs bg-center"
+              />
+            </div>
+            <div className="w-full py-5 ">
               <h2 className="text-xl md:text-3xl font-extrabold text-zzbase">
-                Auth design projects
+                {t("UiUxLab.p99")}
               </h2>
-              <p className="text-base md:text-xl font-light text-zzbase">
-                Ceci est la description du projets.
+              <p className="text-sm md:text-base font-light text-zzbase">
+                {t("UiUxLab.p98")}
               </p>
+              <span className="w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
+                <p>Coming soon</p>
+              </span>
             </div>
           </div>
         </div>
