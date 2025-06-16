@@ -1,20 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
 @import "tailwindcss";
 
 @theme {
-  --font-funnel: "Funnel Display" , sans-serif;
+  --font-funnel: "Funnel Display", sans-serif;
 
   --color-zzbase: #212121;
   --color-zzcontrast: #fff;
   --color-zzlink: #625deb;
-  
 }
 
 @layer utilities {
   @keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    20%, 60% { transform: translateX(-4px); }
-    40%, 80% { transform: translateX(4px); }
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    20%,
+    60% {
+      transform: translateX(-4px);
+    }
+    40%,
+    80% {
+      transform: translateX(4px);
+    }
   }
 
   .animate-shake {
@@ -33,7 +41,7 @@ body {
   background-color: var(--color-contrast);
   color: var(--color-base);
   font-family: var(--font-funnel);
-  font-weight: var(--font-weight-semibold)
+  font-weight: var(--font-weight-semibold);
 }
 
 .link-style,
@@ -82,18 +90,3 @@ body {
 .link-zzstyle-active::after {
   background-color: var(--color-zzbase);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

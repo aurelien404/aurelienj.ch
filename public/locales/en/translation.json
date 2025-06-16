@@ -26,7 +26,8 @@
     "UiUxLab": {
         "title": "My projects",
         "subTitle": "Digital Experiences & Interactive Solutions",
-        "content": "A showcase of my digital creations, built with React, Vite, and Tailwind CSS. I focus on combining clean design and efficient functionality to create intuitive and engaging user experiences"
+        "content": "A showcase of my digital creations, built with React, Vite, and Tailwind CSS. I focus on combining clean design and efficient functionality to create intuitive and engaging user experiences",
+        "p11": "New task ..."
     },
     "notfound": {
         "title": "404 - Page Not Found",

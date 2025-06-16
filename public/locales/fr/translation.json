@@ -26,7 +26,8 @@
     "UiUxLab": {
         "title": "Mes projets",
         "subTitle": "Expériences numériques et solutions interactives",
-        "content": "Une vitrine de mes créations numériques, développées avec React, Vite et Tailwind CSS. Je mets l'accent sur un design épuré et une fonctionnalité efficace pour créer des expériences utilisateur intuitives et engageantes."
+        "content": "Une vitrine de mes créations numériques, développées avec React, Vite et Tailwind CSS. Je mets l'accent sur un design épuré et une fonctionnalité efficace pour créer des expériences utilisateur intuitives et engageantes.",
+        "p11": "Nouvelle tache ..."
     },
     "notfound": {
         "title": "404 - Page non trouvée",
