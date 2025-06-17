@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import Todolist from "../components/projects/toDoList";
+import AuthApp from "../components/projects/auth";
 
 function UiUxLab() {
   const { t } = useTranslation();
@@ -19,6 +20,23 @@ function UiUxLab() {
         <div className="w-full">
           <div className="w-full max-w-[600px] mx-auto border-b-2 mt-5">
             <Todolist />
+            <div className="w-full text-center py-5">
+              <h2 className="text-xl md:text-3xl font-extrabold text-zzbase">
+                {t("UiUxLab.p14")}
+              </h2>
+              <p className="text-sm md:text-base font-light text-zzbase">
+                {t("UiUxLab.p15")}
+              </p>
+              <span className="w-4/6 md:w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
+                <p>React</p>
+                <p>Tailwind</p>
+                <p>i18Next</p>
+              </span>
+            </div>
+          </div>
+
+          <div className="w-full max-w-[600px] mx-auto border-b-2 mt-5">
+            <AuthApp />
             <div className="w-full text-center py-5">
               <h2 className="text-xl md:text-3xl font-extrabold text-zzbase">
                 {t("UiUxLab.p14")}

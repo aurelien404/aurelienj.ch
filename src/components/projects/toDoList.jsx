@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-function App() {
+function ToDoList() {
   const { t, i18n } = useTranslation();
   const [inputTask, setInputTask] = useState("");
   const [showInput, setShowInput] = useState(false);
@@ -117,4 +117,4 @@ function App() {
   );
 }
 
-export default App;
+export default ToDoList;
