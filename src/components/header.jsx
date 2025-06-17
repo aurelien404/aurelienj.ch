@@ -20,7 +20,7 @@ function Header() {
 
   const navLinks = [
     { to: "/", labelKey: "link.home" },
-    { to: "/UiUxLab", labelKey: "link.UiUxLab" },
+    { to: "/Projects", labelKey: "link.UiUxLab" },
     { to: "/contact", labelKey: "link.contact" },
   ];
 
