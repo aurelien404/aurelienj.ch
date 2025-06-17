@@ -10,18 +10,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <!-- Pages à venir -->
-  <!--
-  <url>
-    <loc>https://aurelienj.ch/services</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
+    <url>
     <loc>https://aurelienj.ch/UiUxLab</loc>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>1</priority>
   </url>
-  -->
 </urlset>
