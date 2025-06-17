@@ -46,7 +46,7 @@ function UiUxLab() {
               </p>
               <span className="w-5/6 md:w-3/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
                 <p>React</p>
-                <p>React-Icones</p>
+                <p>React-Icons</p>
                 <p>Tailwind</p>
                 <p>i18Next</p>
               </span>

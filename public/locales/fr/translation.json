@@ -35,7 +35,10 @@
         "p14": "Liste de tâches interactive",
         "p15": "Une to-do list intuitive et fluide, conçue pour démontrer mes compétences en développement. Ajoutez, validez ou supprimez vos tâches facilement grâce à une interface réactive et dynamique.",
         "p21": "Smooth Login",
-        "p22": "Un système de connexion rapide et intuitif, avec un champ unique et des animations fluides pour une expérience moderne et efficace"
+        "p22": "Un système de connexion rapide et intuitif, avec un champ unique et des animations fluides pour une expérience moderne et efficace",
+        "p24": "Login",
+        "p25": "Nom d'utilisateur",
+        "p26": "Mot de Passe"
     },
     "tasks": [
         { "id": 1, "text": "Optimiser une fonction existante", "checked": true },
