@@ -39,13 +39,14 @@ function UiUxLab() {
             <AuthApp />
             <div className="w-full text-center py-5">
               <h2 className="text-xl md:text-3xl font-extrabold text-zzbase">
-                {t("UiUxLab.p14")}
+                {t("UiUxLab.p21")}
               </h2>
               <p className="text-sm md:text-base font-light text-zzbase">
-                {t("UiUxLab.p15")}
+                {t("UiUxLab.p22")}
               </p>
-              <span className="w-4/6 md:w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
+              <span className="w-5/6 md:w-3/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
                 <p>React</p>
+                <p>React-Icones</p>
                 <p>Tailwind</p>
                 <p>i18Next</p>
               </span>

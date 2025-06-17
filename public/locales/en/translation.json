@@ -33,7 +33,9 @@
         "p12": "To-Do list",
         "p13": "Enjoy this mini-app",
         "p14": "Interactive To-Do List",
-        "p15": "An intuitive and fluid to-do list designed to showcase my development skills. Easily add, validate, or delete tasks with a responsive and dynamic interface."
+        "p15": "An intuitive and fluid to-do list designed to showcase my development skills. Easily add, validate, or delete tasks with a responsive and dynamic interface.",
+        "p21": "Smooth Login",
+        "p22": "A fast and intuitive login system with a single field and smooth animations for a modern, efficient experience"
     },
     "tasks": [
         { "id": 1, "text": "Optimize an existing function", "checked": true },

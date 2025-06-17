@@ -33,7 +33,9 @@
         "p12": "Liste de tâches",
         "p13": "Profitez de cette mini-application",
         "p14": "Liste de tâches interactive",
-        "p15": "Une to-do list intuitive et fluide, conçue pour démontrer mes compétences en développement. Ajoutez, validez ou supprimez vos tâches facilement grâce à une interface réactive et dynamique."
+        "p15": "Une to-do list intuitive et fluide, conçue pour démontrer mes compétences en développement. Ajoutez, validez ou supprimez vos tâches facilement grâce à une interface réactive et dynamique.",
+        "p21": "Smooth Login",
+        "p22": "Un système de connexion rapide et intuitif, avec un champ unique et des animations fluides pour une expérience moderne et efficace"
     },
     "tasks": [
         { "id": 1, "text": "Optimiser une fonction existante", "checked": true },
