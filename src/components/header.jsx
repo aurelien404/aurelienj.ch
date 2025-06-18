@@ -21,6 +21,7 @@ function Header() {
   const navLinks = [
     { to: "/", labelKey: "link.home" },
     { to: "/Projects", labelKey: "link.UiUxLab" },
+    { to: "/About", labelKey: "link.about" },
     { to: "/contact", labelKey: "link.contact" },
   ];
 
@@ -132,17 +133,6 @@ function Header() {
         {/* Langues */}
         <div className="flex justify-center space-x-4 mt-4">
           <button
-            className={`font-extrabold bg-none cursor-pointer ${
-              i18n.language === "fr" ? "text-zzlink text-sm" : ""
-            }`}
-            onClick={() => {
-              changeLanguage("fr");
-              setMenuOpen(false);
-            }}
-          >
-            FR
-          </button>
-          <button
             className={`font-extrabold cursor-pointer ${
               i18n.language !== "fr" ? "text-zzlink text-sm" : ""
             }`}
@@ -152,6 +142,17 @@ function Header() {
             }}
           >
             EN
+          </button>
+          <button
+            className={`font-extrabold bg-none cursor-pointer ${
+              i18n.language === "fr" ? "text-zzlink text-sm" : ""
+            }`}
+            onClick={() => {
+              changeLanguage("fr");
+              setMenuOpen(false);
+            }}
+          >
+            FR
           </button>
         </div>
       </div>

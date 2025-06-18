@@ -15,9 +15,9 @@
         "herotext": "I create custom websites that are clean, fast, and tailored for artisans, freelancers, and small businesses. My approach? A simple, clutter-free design that highlights what matters most: <strong>Your work</strong>.",
         "herobtn": "Let’s connect."
     },
-    "service": {
-        "title": "Our Services",
-        "content": "Here you can learn more about our services."
+    "about": {
+        "title": "aurelienj.",
+        "content": "Since my teenage years, the web has fascinated me. I started by creating blogs and websites for friends and family, then later built one for the last store where I worked. After ten years as a bicycle mechanic, I realized my passion could become my profession, and I fully embraced web development."
     },
     "contact": {
         "title": "Contact Me",
@@ -52,7 +52,7 @@
     },
     "link": {
         "home": "Home",
-        "service": "Services",
+        "about": "Me?",
         "contact": "Contact",
         "UiUxLab": "Projects",
         "PP": "Privacy Policy",

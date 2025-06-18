@@ -15,9 +15,9 @@
         "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
         "herobtn": "On en parle ?"
     },
-    "service": {
-        "title": "Nos Services",
-        "content": "Découvrez nos services."
+    "about": {
+        "title": "aurelienj.",
+        "content": "Depuis mon adolescence, le web m’a captivé. J’ai commencé par créer des blogs et des sites pour mes proches, avant de concevoir celui du dernier magasin où j’ai travaillé. Après dix ans comme mécanicien cycle, j’ai décidé de faire de cette passion mon métier et de me lancer pleinement dans le développement web."
     },
     "contact": {
         "title": "Nous Contacter",
@@ -52,7 +52,7 @@
     },
     "link": {
         "home": "Accueil",
-        "service": "Services",
+        "about": "Moi?",
         "contact": "Contact",
         "UiUxLab": "Projets",
         "PP": "Politique de confidentialité",
