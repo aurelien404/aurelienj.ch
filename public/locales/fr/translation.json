@@ -38,7 +38,13 @@
         "p22": "Un système de connexion rapide et intuitif, avec un champ unique et des animations fluides pour une expérience moderne et efficace",
         "p24": "Login",
         "p25": "Nom d'utilisateur",
-        "p26": "Mot de Passe"
+        "p26": "Mot de Passe",
+        "p31": "Flow Input Sending",
+        "p32": "Une zone de saisie intuitive accompagnée d’un bouton d’envoi fluide, pensée pour offrir une expérience utilisateur rapide et élégante.",
+        "p33": "Votre texte",
+        "p34": "Envoyé",
+        "p35": "Envoi en cours...",
+        "p36": "Envoi réussi!"
     },
     "tasks": [
         { "id": 1, "text": "Optimiser une fonction existante", "checked": true },

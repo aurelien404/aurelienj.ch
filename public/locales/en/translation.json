@@ -38,7 +38,14 @@
         "p22": "A fast and intuitive login system with a single field and smooth animations for a modern, efficient experience",
         "p24": "Login",
         "p25": "Username",
-        "p26": "Password"
+        "p26": "Password",
+        "p31": "Flow Input Sending",
+        "p32": "An intuitive input field paired with a smooth send button, designed to provide a fast and elegant user experience",
+        "p33": "Your Input",
+        "p34": "Send",
+        "p35": "Sending...",
+        "p36": "Send successful!"
+        
     },
     "tasks": [
         { "id": 1, "text": "Optimize an existing function", "checked": true },

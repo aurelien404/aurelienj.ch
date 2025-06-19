@@ -42,7 +42,7 @@ function About() {
                 </span>
               ))}
             </h1>
-            <div className="my-2 py-2 md:ml-5 w-2/6 inline-flex justify-around md:justify-start md:gap-4">
+            <div className="my-2 py-2 md:ml-5 w-3/4 md:w-2/6 inline-flex justify-start gap-4">
               <a
                 href="https://github.com/aurelien404"
                 target="_blank"
@@ -94,7 +94,8 @@ function About() {
           </div>
         </div>
 
-        <div className="w-full h-[400px] md:h-full md:w-2/5 mt-10 md:mt-auto bg-zzlink hidden md:block "></div>
+        <div className="hidden md:block w-2/5 h-full bg-zzlink"></div>
+        <div className="absolute top-25 left-50 w-[250px] -z-1 h-70 block md:hidden bg-zzlink"></div>
       </div>
     </>
   );

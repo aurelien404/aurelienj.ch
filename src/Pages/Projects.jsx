@@ -1,11 +1,13 @@
 import { useTranslation } from "react-i18next";
 import Todolist from "../components/projects/toDoList";
 import AuthApp from "../components/projects/auth";
+import InputApp from "../components/projects/input";
 
 function UiUxLab() {
   const { t } = useTranslation();
   return (
     <>
+      <div className="absolute top-25 left-50 w-[250px] -z-1 h-70 block md:hidden bg-zzlink"></div>
       <div className="w-full px-[3vw] pt-10 md:pt-30 md:px-[15vw] ">
         <h1 className="text-3xl md:text-6xl font-extrabold text-zzbase pb-5">
           {t("UiUxLab.title")}
@@ -44,9 +46,25 @@ function UiUxLab() {
               <p className="text-sm md:text-base font-light text-zzbase">
                 {t("UiUxLab.p22")}
               </p>
-              <span className="w-5/6 md:w-3/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
+              <span className="w-4/6 md:w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
                 <p>React</p>
-                <p>React-Icons</p>
+                <p>Tailwind</p>
+                <p>i18Next</p>
+              </span>
+            </div>
+          </div>
+
+          <div className="w-full max-w-[600px] mx-auto border-b-2 mt-5">
+            <InputApp />
+            <div className="w-full text-center py-5">
+              <h2 className="text-xl md:text-3xl font-extrabold text-zzbase">
+                {t("UiUxLab.p31")}
+              </h2>
+              <p className="text-sm md:text-base font-light text-zzbase">
+                {t("UiUxLab.p32")}
+              </p>
+              <span className="w-4/6 md:w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
+                <p>React</p>
                 <p>Tailwind</p>
                 <p>i18Next</p>
               </span>
