@@ -44,7 +44,9 @@
         "p33": "Your Input",
         "p34": "Send",
         "p35": "Sending...",
-        "p36": "Send successful!"
+        "p36": "Send successful!",
+        "p41": "Memory Game",
+        "p42": "Have fun with this mini memory game, find the pairs!"
         
     },
     "tasks": [

@@ -44,7 +44,9 @@
         "p33": "Votre texte",
         "p34": "Envoyé",
         "p35": "Envoi en cours...",
-        "p36": "Envoi réussi!"
+        "p36": "Envoi réussi!",
+        "p41": "Jeu de mémoire",
+        "p42": "Amuse-toi bien avec ce mini jeu de mémoire, trouve les paires !"
     },
     "tasks": [
         { "id": 1, "text": "Optimiser une fonction existante", "checked": true },
