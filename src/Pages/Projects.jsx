@@ -31,8 +31,15 @@ function UiUxLab() {
                 {t("UiUxLab.p42")}
               </p>
               <span className="w-4/6 md:w-2/6 inline-flex justify-around py-3 text-xs md:text-sm font-medium text-zzlink">
-                <p>React</p>
-                <p>Tailwind</p>
+                <a
+                  href="https://memory-game.aurelienj.ch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <button className="border-2 border-zzlink text-zzlink px-5 py-2 transition-all ease-in-out duration-150 hover:scale-110 active:scale-90">
+                    {t("UiUxLab.p43")}
+                  </button>
+                </a>
               </span>
             </div>
           </div>
