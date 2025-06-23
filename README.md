@@ -22,7 +22,8 @@ Feel free to explore my projects.
 ↓↓ Follow this redirectory ↓↓
 ../src/components/projects
 ```
-### Memory Game  
+### Memory Game
+[Memory Game](https://github.com/aurelien404/memory-game) 
 Have fun with this mini memory game — find the pairs and test your memory!
 
 ### Interactive To-Do List  
