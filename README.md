@@ -16,20 +16,10 @@ Welcome to the repository of my personal website — a digital space where I sho
 
 ---
 
-## 🛠️ Tech Stack
-
-| Tool         | Purpose                                           |
-|--------------|---------------------------------------------------|
-| React        | Front-end JavaScript library                      |
-| Tailwind CSS | Utility-first CSS framework                       |
-| i18Next      | Internationalization and translation management   |
-| EmailJS      | Client-side email service                         |
-| React Icons  | Icon library for modern interfaces                |
-
----
-
 ## 🧩 Featured Projects
 ```bash
+Feel free to explore my projects.
+↓↓ Follow this redirectory ↓↓
 ../src/components/projects
 ```
 ### 🧠 Memory Game  
@@ -43,6 +33,18 @@ A fast and intuitive login system with a single field and smooth animations for 
 
 ### 📤 Flow Input Sending  
 An intuitive input field paired with a smooth send button, designed to provide a fast and elegant user experience.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool         | Purpose                                           |
+|--------------|---------------------------------------------------|
+| React        | Front-end JavaScript library                      |
+| Tailwind CSS | Utility-first CSS framework                       |
+| i18Next      | Internationalization and translation management   |
+| EmailJS      | Client-side email service                         |
+| React Icons  | Icon library for modern interfaces                |
 
 ---
 
