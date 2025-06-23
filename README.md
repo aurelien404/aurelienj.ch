@@ -1,13 +1,59 @@
-# React + Vite
+# 🌐 aurelienj.ch — Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository of my personal website — a digital space where I showcase my projects, technical skills, and passion for web development.
 
-Currently, two official plugins are available:
+🌍 Live at: [www.aurelienj.ch](https://www.aurelienj.ch)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Highlights
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Built with **React** and styled using **Tailwind CSS**
+- Multilingual support via **i18Next**
+- Contact form powered by **EmailJS**
+- Sleek UI with **React Icons**
+- Fully responsive and mobile-friendly design
 
+---
+
+## 🧩 Featured Projects
+```bash
+Feel free to explore my projects.
+↓↓ Follow this redirectory ↓↓
+../src/components/projects
+```
+### Memory Game  
+Have fun with this mini memory game — find the pairs and test your memory!
+
+### Interactive To-Do List  
+An intuitive and fluid to-do list designed to showcase my development skills. Easily add, validate, or delete tasks with a responsive and dynamic interface.
+
+### Smooth Login  
+A fast and intuitive login system with a single field and smooth animations for a modern, efficient experience.
+
+### Flow Input Sending  
+An intuitive input field paired with a smooth send button, designed to provide a fast and elegant user experience.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool         | Purpose                                           |
+|--------------|---------------------------------------------------|
+| React        | Front-end JavaScript library                      |
+| Tailwind CSS | Utility-first CSS framework                       |
+| i18Next      | Internationalization and translation management   |
+| EmailJS      | Client-side email service                         |
+| React Icons  | Icon library for modern interfaces                |
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/aurelienj.ch.git
+cd aurelienj.ch
+npm install
+npm start
