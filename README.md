@@ -22,16 +22,16 @@ Feel free to explore my projects.
 ↓↓ Follow this redirectory ↓↓
 ../src/components/projects
 ```
-### 🧠 Memory Game  
+### Memory Game  
 Have fun with this mini memory game — find the pairs and test your memory!
 
-### ✅ Interactive To-Do List  
+### Interactive To-Do List  
 An intuitive and fluid to-do list designed to showcase my development skills. Easily add, validate, or delete tasks with a responsive and dynamic interface.
 
-### 🔐 Smooth Login  
+### Smooth Login  
 A fast and intuitive login system with a single field and smooth animations for a modern, efficient experience.
 
-### 📤 Flow Input Sending  
+### Flow Input Sending  
 An intuitive input field paired with a smooth send button, designed to provide a fast and elegant user experience.
 
 ---
