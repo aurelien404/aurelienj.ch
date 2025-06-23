@@ -1,7 +1,7 @@
 function MemoryGame() {
   return (
     <>
-      <h1>Coming soon</h1>
+      <h1>Memory game is comming soon</h1>
     </>
   );
 }
