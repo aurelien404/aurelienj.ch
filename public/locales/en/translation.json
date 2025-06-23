@@ -46,7 +46,8 @@
         "p35": "Sending...",
         "p36": "Send successful!",
         "p41": "Memory Game",
-        "p42": "Have fun with this mini memory game, find the pairs!"
+        "p42": "Have fun with this mini memory game, find the pairs! Want more levels? Try the full game link below",
+        "p43": "Full game"
         
     },
     "tasks": [

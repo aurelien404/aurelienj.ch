@@ -46,7 +46,8 @@
         "p35": "Envoi en cours...",
         "p36": "Envoi réussi!",
         "p41": "Jeu de mémoire",
-        "p42": "Amuse-toi bien avec ce mini jeu de mémoire, trouve les paires !"
+        "p42": "Amuse-toi avec ce mini jeu de mémoire, retrouve les paires ! Tu veux plus de niveaux ? Essaye le jeu complet en dessous",
+        "p43": "Jeu complet"
     },
     "tasks": [
         { "id": 1, "text": "Optimiser une fonction existante", "checked": true },
