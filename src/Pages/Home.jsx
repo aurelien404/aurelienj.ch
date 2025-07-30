@@ -29,7 +29,7 @@ function Home() {
           </Link>
         </div>
         <div className="hidden md:block w-2/5 h-full bg-zzlink"></div>
-        <div className="absolute top-50 left-40 w-[300px] -z-1 h-2/3 block md:hidden bg-zzlink"></div>
+        <div className="absolute top-40 right-0 w-3/4 -z-1 h-2/3 block md:hidden bg-zzlink"></div>
       </div>
     </>
   );

@@ -15,9 +15,8 @@ function UiUxLab() {
   const { t } = useTranslation();
   return (
     <>
-      <div className="absolute top-25 left-50 w-45 md:w-[250px] -z-1 h-70 block md:hidden bg-zzlink"></div>
       <div className="w-full px-[3vw] pt-10 md:pt-30 md:px-[15vw] ">
-        <h1 className="text-3xl md:text-6xl font-extrabold text-zzbase pb-5">
+        <h1 className="text-3xl md:text-6xl font-extrabold text-zzlink md:text-zzbase pb-5">
           {t("UiUxLab.title")}
         </h1>
         <h3 className="text-xl md:text-3xl font-extrabold text-zzbase">

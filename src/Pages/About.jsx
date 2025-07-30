@@ -26,7 +26,7 @@ function About() {
               {[..."aurelienj."].map((char, i) => (
                 <span
                   key={i}
-                  className="inline-block transition-transform duration-200 ease-in-out hover:rotate-45 hover:text-zzbase hover:text-shadow-zzbase"
+                  className="inline-block transition-transform duration-200 ease-out hover:rotate-45 hover:text-zzbase hover:text-shadow-zzbase"
                 >
                   {char}
                 </span>
