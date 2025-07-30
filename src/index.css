@@ -40,6 +40,11 @@ textarea {
   outline: none;
 }
 
+body,
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: var(--color-contrast);
   color: var(--color-base);
