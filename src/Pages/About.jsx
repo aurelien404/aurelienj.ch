@@ -1,27 +1,16 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect } from "react";
-import { motion } from "framer-motion";
 import { IoLogoYoutube } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 
+import { IoLogoReact } from "react-icons/io5";
+import { SiLaravel } from "react-icons/si";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { SiMysql } from "react-icons/si";
+import { FaWordpress } from "react-icons/fa";
+
 function About() {
   const { t } = useTranslation();
-  const [loaded, setLoaded] = useState(false);
-  const itemsLeft = [
-    { label: "HTML", width: "80%" },
-    { label: "SASS", width: "75%" },
-    { label: "Js", width: "70%" },
-    { label: "Python", width: "60%" },
-    { label: "Php", width: "40%" },
-  ];
-
-  const itemsRight = [
-    { label: "React", width: "40%" },
-    { label: "Tailwind", width: "70%" },
-    { label: "Django", width: "35%" },
-    { label: "Laravel", width: "25%" },
-    { label: "WP", width: "85%" },
-  ];
 
   useEffect(() => {
     setTimeout(() => setLoaded(true), 100);
@@ -61,43 +50,20 @@ function About() {
             </div>
             <h2 className="text-left">{t("about.content")}</h2>
             <div className="w-full h-auto mt-10 block md:inline-flex">
-              <div className="w-full h-1/2 md:w-1/2 text-left md:h-full grid text-zzcontrast grid-rows-5 gap-1">
-                {itemsLeft.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    className={`bg-zzlink p-2 ${
-                      loaded ? item.width : "w-1/10"
-                    }`}
-                    initial={{ width: "10%" }}
-                    animate={{ width: loaded ? item.width : "10%" }}
-                    transition={{ duration: 2, ease: "easeInOut" }}
-                  >
-                    {item.label}
-                  </motion.div>
-                ))}
-              </div>
-              <div className="w-full h-1/2 md:w-1/2 text-zzcontrast md:h-full mt-5 md:mt-0 grid grid-rows-5 gap-1 md:text-right text-left md:place-items-end">
-                {itemsRight.map((item, index) => (
-                  <motion.div
-                    key={index}
-                    className={`bg-zzlink p-2 ${
-                      loaded ? item.width : "w-1/10"
-                    }`}
-                    initial={{ width: "10%" }}
-                    animate={{ width: loaded ? item.width : "10%" }}
-                    transition={{ duration: 2, ease: "easeInOut" }}
-                  >
-                    {item.label}
-                  </motion.div>
-                ))}
+              <div className="flex flex-row items-center justify-center gap-5 w-full  text-zzlink text-6xl">
+                <IoLogoReact />
+                <SiLaravel />
+                <RiTailwindCssFill />
+                <SiMysql />
+                <FaWordpress />
               </div>
             </div>
           </div>
         </div>
 
-        <div className="hidden md:block relative w-2/6 h-5/6 self-center bg-zzlink border-10 border-zzlink">
+        <div className="hidden md:block relative w-2/6 h-5/6 self-center bg-zzlink border-0">
           <div
-            className={`bg-[url(../images/photodeprofile.jpeg)] bg-cover bg-center   w-full h-full`}
+            className={`bg-[url(../images/photodeprofile.jpeg)] bg-cover bg-center w-full h-full`}
           ></div>
         </div>
       </div>

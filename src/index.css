@@ -9,6 +9,9 @@
   --color-zzlink: #625deb;
 }
 
+/*
+
+*/
 @layer utilities {
   @keyframes shake {
     0%,
@@ -102,4 +105,8 @@ body {
 }
 .backface-hidden {
   backface-visibility: hidden;
+}
+
+.app-icons {
+  @apply w-full inline-flex justify-center gap-4 py-3 text-2xl font-medium text-zzlink;
 }

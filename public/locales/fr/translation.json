@@ -4,24 +4,24 @@
         "title": "Bienvenue sur mon site web !",
         "content": "Ceci est la page d'accueil.",
         "heroMaint": "Ce site sera bientôt disponible",
-        "herotitre": "Web Développeur freelance",
+        "herotitre": "Junior React & Laravel développeur",
         "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
         "herobtn": "On en parle ?"
     },
     "home": {
         "title": "Bienvenue sur mon site web !",
         "content": "Ceci est la page d'accueil.",
-        "herotitre": "Web Développeur freelance",
-        "herotext": "Je conçois des sites web sur-mesure, épurés et rapides, pensés pour <b>les artisans</b>, <b>indépendants</b> et <b>petites structures</b>. Mon approche ? Un design clair, sans superflu, qui met en <b>valeur</b> l’essentiel á votre activité.",
+        "herotitre": "Junior React & Laravel développeur",
+        "herotext": "Une idée en tête, un projet en cours ou un site à améliorer ? Je suis développeur junior React et Laravel, prêt à relever de nouveaux défis, apprendre rapidement et créer des solutions performantes. Parlons-en et voyons ce que nous pouvons construire ensemble !",
         "herobtn": "On en parle ?"
     },
     "about": {
         "title": "aurelienj.",
-        "content": "Depuis mon adolescence, le web m’a captivé. J’ai commencé par créer des blogs et des sites pour mes proches, avant de concevoir celui du dernier magasin où j’ai travaillé. Après dix ans comme mécanicien cycle, j’ai décidé de faire de cette passion mon métier et de me lancer pleinement dans le développement web."
+        "content": "Ma fascination pour le web a commencé à l'adolescence. Je passais des heures à expérimenter avec HTML et CSS, en créant des blogs personnels et des sites web pour mes proches, ainsi que quelques projets communautaires locaux. Au fil du temps, j'ai découvert à quel point il était gratifiant de transformer des idées en expériences web fonctionnelles et esthétiques. Plus tard, alors que je travaillais dans un magasin de vélos, j'ai créé un site pour la boutique — un projet décisif qui a ravivé ma passion et m'a montré l'impact concret d'un bon développement web. Après dix belles années comme mécanicien vélo, j'ai décidé de faire le grand saut et de transformer cette passion en métier. Je me suis plongé dans l'apprentissage de React et Laravel, en développant des projets, en collaborant avec d'autres développeurs, et en améliorant sans cesse mes compétences. Aujourd'hui, je suis enthousiaste à l'idée de relever de nouveaux défis et de contribuer à des solutions web utiles en tant que développeur junior."
     },
     "contact": {
         "title": "Nous Contacter",
-        "text": "Besoin d’un tout nouveau site ? Un site à améliorer ? Ou simplement une question ? Partagez-moi votre projet, je vous accompagne."
+        "text": "Vous cherchez à recruter un développeur junior React et Laravel ? Entrons en contact et explorons comment je peux contribuer à votre équipe."
     },
     "UiUxLab": {
         "title": "Mes projets",
@@ -46,8 +46,17 @@
         "p35": "Envoi en cours...",
         "p36": "Envoi réussi!",
         "p41": "Jeu de mémoire",
-        "p42": "Amuse-toi avec ce mini jeu de mémoire, retrouve les paires ! Tu veux plus de niveaux ? Essaye le jeu complet en dessous",
-        "p43": "Jeu complet"
+        "p42": "Jeu de mémoire mini : retrouvez toutes les paires correspondantes et mettez votre mémoire à l’épreuve. Envie d’un défi plus corsé ? La version complète propose trois niveaux de difficulté, facile pour un échauffement tranquille, normal pour maintenir la concentration, et difficile pour repousser les limites de votre mémoire. Suivez le lien pour découvrir toutes les variantes et tester votre esprit",
+        "p43": "Jeu complet",
+        "p51": "Frontend css ART challenge",
+        "p52": "Ce projet est ma contribution au défi CSS Art : Culture de bureau, dans le cadre du Frontend Challenge : Édition Bureau, sponsorisé par Axero. Il réinvente la vie de bureau à bord de la Station Spatiale Internationale, en mêlant esthétique de science-fiction et interactivité professionnelle.",
+        "p53": "Live preview",
+        "p54": "Github Projet",
+        "p55": "Challenge lien",
+        "p61": "Weather Forecast App",
+        "p62": "Une application web légère et réactive de prévision météorologique, développée avec React pour le front-end et Laravel pour le back-end. Elle offre aux utilisateurs des mises à jour météorologiques en temps réel ainsi que des prévisions localisées, en intégrant des données provenant d'API publiques fiables",
+        "p63": "Live preview",
+        "p64": "Github Projet"
     },
     "tasks": [
         { "id": 1, "text": "Optimiser une fonction existante", "checked": true },

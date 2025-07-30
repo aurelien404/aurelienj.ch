@@ -4,24 +4,24 @@
         "title": "Welcome to my website!",
         "content": "This is the home page.",
         "heroMaint": "We're Working On It",
-        "herotitre": "Freelance Web Developer",
-        "herotext": "I create custom websites that are clean, fast, and tailored for artisans, freelancers, and small businesses. My approach? A simple, clutter-free design that highlights what matters most: <strong>Your work</strong>.",
+        "herotitre": "Junior React & Developer",
+        "herotext": "I'm passionate about crafting dynamic, responsive web applications with React and Laravel. Whether it's a sleek frontend or powerful backend, I love bringing ideas to life with clean code and thoughtful design. I'm currently open to new opportunities and eager to grow within a talented team.",
         "herobtn": "Let’s connect."
     },
     "home": {
         "title": "Welcome to my website!",
         "content": "This is the home page.",
-        "herotitre": "Freelance Web Developer",
-        "herotext": "I create custom websites that are clean, fast, and tailored for artisans, freelancers, and small businesses. My approach? A simple, clutter-free design that highlights what matters most: <strong>Your work</strong>.",
+        "herotitre": "Junior React & Laravel Developer",
+        "herotext": "I'm passionate about crafting dynamic, responsive web applications with React and Laravel. Whether it's a sleek frontend or powerful backend, I love bringing ideas to life with clean code and thoughtful design. I'm currently open to new opportunities and eager to grow within a talented team.",
         "herobtn": "Let’s connect."
     },
     "about": {
         "title": "aurelienj.",
-        "content": "Since my teenage years, the web has fascinated me. I started by creating blogs and websites for friends and family, then later built one for the last store where I worked. After ten years as a bicycle mechanic, I realized my passion could become my profession, and I fully embraced web development."
+       "content": "My fascination with the web began in my teenage years. I spent hours experimenting with HTML and CSS, creating personal blogs and websites for friends, family, and even a few local community projects. Over time, I discovered how fulfilling it was to turn ideas into functional, visually pleasing web experiences. Later, while working at a bike shop, I built a website for the store — a pivotal project that reignited my passion and showed me the real-world impact of good web development. After ten rewarding years as a bicycle mechanic, I took a leap of faith to turn that passion into a profession. I immersed myself in learning React and Laravel, building projects, collaborating with peers, and constantly refining my skills. Today, I'm excited to take on new challenges and contribute to meaningful web solutions as a junior developer."
     },
     "contact": {
         "title": "Contact Me",
-        "text": "Need to improve an existing website, create a new one, or just have a question? Share your project with me — I'm here to help."
+        "text": "Interested in hiring a junior React and Laravel developer? Let's connect and explore how I can contribute to your team."
     },
     "UiUxLab": {
         "title": "My projects",
@@ -46,8 +46,17 @@
         "p35": "Sending...",
         "p36": "Send successful!",
         "p41": "Memory Game",
-        "p42": "Have fun with this mini memory game, find the pairs! Want more levels? Try the full game link below",
-        "p43": "Full game"
+        "p42": "Mini memory game: find all the matching pairs and put your brain to the test. If you're craving more of a challenge, the full version offers three progressively tougher levels, easy for a relaxed warm-up, normal to keep you thinking, and hard to push your memory to its limits. Follow the link to explore them all and see how far your concentration can take you.",
+        "p43": "Full game",
+        "p51": "Frontend css ART challenge",
+        "p52": "This project is my submission for the CSS Art: Office Culture prompt in the Frontend Challenge: Office Edition, sponsored by Axero. It reimagines office life aboard the International Space Station, blending sci-fi aesthetics with workplace interactivity.",
+        "p53": "Live preview",
+        "p54": "Github Project",
+        "p55": "Challenge link",
+        "p61": "Weather Forecast App",
+        "p62": "A lightweight and responsive weather forecasting web application developed using React for the front-end and Laravel for the back-end. It provides users with real-time weather updates and location-based forecasts by integrating data from trusted public APIs.",
+        "p63": "Live preview",
+        "p64": "Github Projet"
         
     },
     "tasks": [
