@@ -38,6 +38,7 @@ button,
 textarea {
   cursor: pointer;
   outline: none;
+  @apply w-full border-2 py-4 px-3 md:py-2 focus:border-zzlink focus:text-zzlink hover:scale-105 transition duration-200 active:scale-100;
 }
 
 body,

@@ -50,7 +50,7 @@ function UiUxLab() {
               </p>
               <span className="w-full md:w-7/10 inline-flex justify-center gap-3 py-3 text-xs md:text-sm font-medium text-zzlink">
                 <a
-                  href="https://weather.aurelienj.ch"
+                  href="https://w8ther.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
